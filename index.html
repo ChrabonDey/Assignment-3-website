@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,14 +19,79 @@
           colors: {
             clifford: '#da373d',
 
-          }
+          },
+          fontFamily:{
+            font: 'Manrope', 
+          },
         }
       }
     }
   </script>
-  
+  <style>
+    .manrope{
+        font-family: "Manrope", sans-serif;
+    }
+  </style>
+  <!-- Here is font script -->
+  <script src="https://kit.fontawesome.com/0d7b195d3f.js" crossorigin="anonymous"></script>
 </head>
-<body class=" ">
-    
+<body class="manrope">
+    <header class="bg-slate-100" >
+      <!-- Here is a nav section -->
+       <nav class="w-11/12 mx-auto ">
+        <div class="navbar ">
+          <div class="navbar-start flex gap-2 items-center justify-center">
+            <div class=" w-8 h-8  lg:w-10 lg:h-10 flex items-center justify-center bg-[#ABEF5F] rounded-full">
+              <i class="fa-solid fa-arrow-up rotate-45 text-xl"></i>
+            </div>
+            <div class=" lg:text-4xl text-2xl font-bold ">Rinterio</div>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 ">
+              <li><a class="text-[#737373] font-semibold hover:text-[#494949] transition-colors duration-300 ease-in-out">Home</a></li>
+              <li><a class="text-[#737373] font-semibold  hover:text-[#494949] transition-colors duration-300 ease-in-out">Services</a></li>
+              <li><a class="text-[#737373] font-semibold  hover:text-[#494949] transition-colors duration-300 ease-in-out">Portfolio</a></li>
+              <li><a class="text-[#737373] font-semibold  hover:text-[#494949] transition-colors duration-300 ease-in-out">Blogs</a></li>
+              <li><a class="text-[#737373] font-semibold  hover:text-[#494949] transition-colors duration-300 ease-in-out">Contact US</a></li>
+              
+            </ul>
+          </div>
+          <div class="navbar-end flex items-center justify-center gap-4">
+            <div class=" hidden w-8 h-8 lg:flex items-center justify-center bg-[#FFFFFF] rounded-full">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="hidden w-8 h-8 lg:flex items-center justify-center bg-[#FFFFFF] rounded-full">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class=" hidden px-5 py-2 md:rounded-3xl md:flex items-center justify-center gap-2 bg-[#ABEF5F] text-black ">
+                 <h3 class="text-xl font-bold ">Book Consult</h3>
+                 <div class=" w-8 h-8 flex items-center justify-center bg-black text-white rounded-full">
+                  <i class="fa-solid fa-arrow-up rotate-45"></i>
+                </div>
+            </div>
+            <div class="dropdown">
+              <div tabindex="0" role="button" class=" lg:hidden  w-8 h-8 flex items-center justify-center bg-[#FFFFFF] rounded-full ">
+                <i class="fa-solid fa-bars"></i>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0">
+                <li><a class="text-[#737373] hover:text-[#494949] transition-colors duration-300 ease-in-out">Home</a></li>
+                <li><a class="text-[#737373] hover:text-[#494949] transition-colors duration-300 ease-in-out">Services</a></li>
+                <li><a class="text-[#737373] hover:text-[#494949] transition-colors duration-300 ease-in-out">Portfolio</a></li>
+                <li><a class="text-[#737373] hover:text-[#494949] transition-colors duration-300 ease-in-out">Blogs</a></li>
+                <li><a class="text-[#737373] hover:text-[#494949] transition-colors duration-300 ease-in-out">Contact US</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+       </nav>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
